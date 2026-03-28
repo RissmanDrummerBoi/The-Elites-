@@ -1,6 +1,6 @@
 # Team Meeting Log
 
-## Meeting 1: [Meeting Name]
+## Meeting 1: [Project Kickoff]
 
 - **Date:** [March 17, 2026]  
 - **Time:** [20:00 – 20:29]  
