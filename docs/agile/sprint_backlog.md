@@ -21,8 +21,8 @@
 | S0-01 | Set up Django project structure | Welcome Khayeni (Backend) | 3 | To Do |
 | S0-02 | Configure PostgreSQL database | Welcome Khayeni (Backend) | 2 | To Do |
 | S0-03 | Create initial database schema | Welcome Khayeni (Backend) | 5 | To Do |
-| S0-04 | Set up React project structure | Kelly (Frontend) | 3 | To Do |
-| S0-05 | Configure Tailwind CSS | Kelly (Frontend) | 2 | To Do |
+| S0-04 | Set up React project structure | Risana Kelly Siweya (Frontend) | 3 | To Do |
+| S0-05 | Configure Tailwind CSS | Risana Kelly Siweya (Frontend) | 2 | To Do |
 | S0-06 | Create GitHub Project Board | Brilliant Temollo Maloma (Scrum Master) | 1 | To Do |
 | S0-07 | Define test cases for authentication | Aphiwe Sibusio Mntambo (Tester) | 2 | To Do |
 | S0-08 | Review wireframes with team | All team | 2 | To Do |
