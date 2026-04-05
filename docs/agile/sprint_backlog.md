@@ -20,7 +20,7 @@
 |---------|------|-------------|--------|--------|
 | S0-01 | Set up Django project structure | Welcome Khayeni (Backend) | 3 | To Do |
 | S0-02 | Configure PostgreSQL database | Welcome Khayeni (Backend) | 2 | To Do |
-| S0-03 | Create initial database schema | MWelcome Khayeni (Backend) | 5 | To Do |
+| S0-03 | Create initial database schema | Welcome Khayeni (Backend) | 5 | To Do |
 | S0-04 | Set up React project structure | Kelly (Frontend) | 3 | To Do |
 | S0-05 | Configure Tailwind CSS | Kelly (Frontend) | 2 | To Do |
 | S0-06 | Create GitHub Project Board | Brilliant Temollo Maloma (Scrum Master) | 1 | To Do |
@@ -36,15 +36,15 @@
 | Task ID | Task | Assigned To | Points | Status |
 |---------|------|-------------|--------|--------|
 | US-01 | Student registration (frontend + backend) | Welcome Khayeni + Kelly | 5 | To Do |
-| US-02 | Student login (frontend + backend) | Welcome Khayen + Kelly | 5 | To Do |
-| US-03 | Student dashboard view | Kelly (Frontend) | 3 | To Do |
-| US-04 | Password reset functionality | Welcome Khayeni + Kelly | 5 | To Do |
+| US-02 | Student login (frontend + backend) | Welcome Khayen + Risana Kelly Siweya | 5 | To Do |
+| US-03 | Student dashboard view | Risana Kelly Siweya (Frontend) | 3 | To Do |
+| US-04 | Password reset functionality | Welcome Khayeni + Risana Kelly Siweya | 5 | To Do |
 | T-01 | Implement JWT authentication | Welcome Khayeni (Backend) | 3 | To Do |
 | T-02 | Create registration API endpoint | Welcome Khayeni (Backend) | 2 | To Do |
 | T-03 | Create login API endpoint | Welcome Khayeni (Backend) | 2 | To Do |
-| T-04 | Build registration form | Kelly (Frontend) | 3 | To Do |
-| T-05 | Build login form | Kelly (Frontend) | 2 | To Do |
-| T-06 | Create dashboard layout | Kelly (Frontend) | 3 | To Do |
+| T-04 | Build registration form | Risana Kelly Siweya (Frontend) | 3 | To Do |
+| T-05 | Build login form | Risana Kelly Siweya (Frontend) | 2 | To Do |
+| T-06 | Create dashboard layout | Risana Kelly Siweya (Frontend) | 3 | To Do |
 | T-07 | Write unit tests for authentication | Aphiwe Sibusio Mntambo (Tester) | 2 | To Do |
 | T-08 | Validate authentication with users | Jabu Sithole (Researcher) | 2 | To Do |
 
