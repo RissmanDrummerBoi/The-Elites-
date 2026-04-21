@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 71% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 37 91% 55%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 30 10% 96%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 37 91% 55%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 10% 90%;
+    --input: 30 10% 90%;
+    --ring: 0 71% 25%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 71% 25%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 37 91% 55%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 0 50% 20%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 50% 20%;
+    --sidebar-ring: 37 91% 55%;
+
+    /* Custom tokens */
+    --wsu-maroon: 0 71% 25%;
+    --wsu-gold: 37 91% 55%;
+    --wsu-gold-light: 37 91% 65%;
+    --wsu-maroon-dark: 0 71% 18%;
+
+    --status-pending: 45 93% 47%;
+    --status-in-progress: 217 91% 60%;
+    --status-resolved: 142 71% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .wsu-gradient {
+    background: linear-gradient(135deg, hsl(0, 71%, 25%), hsl(0, 71%, 18%));
+  }
+
+  .gold-gradient {
+    background: linear-gradient(135deg, hsl(37, 91%, 55%), hsl(37, 91%, 65%));
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .card-hover:hover {
+    @apply shadow-xl -translate-y-1;
+  }
+}
