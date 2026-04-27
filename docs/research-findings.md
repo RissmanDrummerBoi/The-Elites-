@@ -2,7 +2,6 @@
 
 ## Researcher
 Jabu
-
 ---
 
 ## Status
