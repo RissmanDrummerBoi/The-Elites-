@@ -124,19 +124,43 @@ Secondary	Campus maintenance staff, University housing/residence management
 
 🛠️ **Tech Stack**
 
-_Frontend_
+🌐 _Frontend (TypeScript)_
 
-Html (Structure)
+React 18 — UI framework
 
-CSS (Styling)
+TypeScript — type safety
 
-Javascript ()
+Vite — build tool & dev server
 
+React Router v6 — client-side routing
 
-_Backend_
+TanStack React Query — server state management
 
+Tailwind CSS — utility-first styling
 
-_Database_
+shadcn/ui — component library
+
+Lucide React — icons
+
+Google Fonts — Playfair Display (headings) + Inter (body)
+
+🖥️ _Backend (Python)_
+
+FastAPI — web framework
+
+SQLAlchemy — ORM for database models
+
+PostgreSQL — database
+
+Alembic — (likely) for migrations
+
+python-jose — JWT token creation & verification
+
+passlib + bcrypt — password hashing
+
+python-dotenv — environment variable management
+
+python-multipart — file/image uploads
 
 
 _DevOps & Tools_
