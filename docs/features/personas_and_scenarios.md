@@ -16,10 +16,10 @@ Scenario
 
 Mr. Dlamini logs into the system and sees a list of new maintenance issues assigned to him. He selects an electrical issue, updates its status to “In Progress,” and later marks it as “Resolved” after fixing it.
 
-Persona 3: Ms. Nkosi (Residence Manager)
+Persona 3: Mr. Nkosana (Residence Manager)
 Age: 38
 Occupation: Residence administrator
 Goal: Ensure maintenance issues are handled properly and on time
 Scenario
 
-Ms. Nkosi checks the system dashboard to monitor all reported issues. She notices some complaints are taking too long and follows up with the maintenance team to speed up resolution.
+Mr. Nkosana checks the system dashboard to monitor all reported issues. She notices some complaints are taking too long and follows up with the maintenance team to speed up resolution.
