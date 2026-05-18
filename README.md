@@ -5,9 +5,7 @@ A digital platform streamlining maintenance issue reporting for on-campus studen
 📖 **Table of Contents**
 
 Problem Statement
-
 Solution
-
 Features
 
 User Workflow
