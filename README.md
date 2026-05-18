@@ -1,6 +1,9 @@
 # The-Elites-🏠 Campus Residence Maintenance Reporting System (CRMRS)
+
 A digital platform streamlining maintenance issue reporting for on-campus student residences at IWS
+
 📖 **Table of Contents**
+
 Problem Statement
 Solution
 Features
