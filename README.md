@@ -5,19 +5,33 @@ A digital platform streamlining maintenance issue reporting for on-campus studen
 📖 **Table of Contents**
 
 Problem Statement
+
 Solution
+
 Features
+
 User Workflow
+
 Target Audience
+
 Tech Stack
+
 Contributors
+
 🎯 **Problem Statement**
+
 Students living in on-campus residences frequently encounter maintenance issues including:
+
 🔧 Plumbing faults
+
 ⚡ Electrical failures
+
 🪑 Broken furniture
+
 🏚️ Poor room conditions
+
 **Current Challenges:**
+
 ❌ Inefficient manual reporting (verbal complaints/paperwork)
 ⏰ Delayed response times
 📢 Poor communication between students and maintenance teams
