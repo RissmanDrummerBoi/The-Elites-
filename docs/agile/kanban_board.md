@@ -161,26 +161,6 @@
 ## 📈 Burndown Chart (Sprint 0)
 
 ---
-
-## 🏷️ Label System
-
-| Label | Color | Meaning |
-|-------|-------|---------|
-| `sprint-0` | 🟣 Purple | Task belongs to Sprint 0 |
-| `sprint-1` | 🔵 Blue | Task belongs to Sprint 1 |
-| `sprint-2` | 🟠 Orange | Task belongs to Sprint 2 |
-| `sprint-3` | 🟢 Green | Task belongs to Sprint 3 |
-| `sprint-4` | 🔴 Red | Task belongs to Sprint 4 |
-| `backend` | ⚫ Black | Backend development task |
-| `frontend` | 🟡 Yellow | Frontend development task |
-| `testing` | 🟤 Brown | Testing/QA task |
-| `documentation` | ⚪ White | Documentation task |
-| `bug` | 🔴 Red | Bug fix |
-| `blocker` | ⚫ Black | Blocking progress |
-| `urgent` | 🔴 Red | High priority |
-
----
-
 ## 🔄 Workflow Rules
 
 | Rule | Description |
