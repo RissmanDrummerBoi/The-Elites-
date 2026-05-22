@@ -17,12 +17,10 @@ const Login = () => {
     setLoading(true);
     setError("");
     try {
-      // Step 1: Login and get token
       const data = await api.login(studentNumber, password);
       const token = data.access_token;
       localStorage.setItem("token", token);
 
-      // Step 2: Get user details using token
       const user = await api.getMe(token);
       localStorage.setItem("role", user.role);
       localStorage.setItem("user", JSON.stringify(user));
@@ -45,21 +43,65 @@ const Login = () => {
         </div>
         <div className="relative z-10 text-center">
           <img src={wsuLogo} alt="Walter Sisulu University" className="w-72 mx-auto mb-8 rounded-xl shadow-2xl" />
-          <h1 className="text-primary-foreground font-display text-3xl mb-3">
-            Campus Residence
-          </h1>
-          <h2 className="text-secondary font-display text-2xl mb-4">
-            Maintenance Reporting System
-          </h2>
-          <p className="text-primary-foreground/70 text-sm italic">
-            "In pursuit of excellence"
-          </p>
+          <h1 className="text-primary-foreground font-display text-3xl mb-3">Campus Residence</h1>
+          <h2 className="text-secondary font-display text-2xl mb-4">Maintenance Reporting System</h2>
+          <p className="text-primary-foreground/70 text-sm italic">"In pursuit of excellence"</p>
         </div>
       </div>
 
-      {/* Right panel - Login form */}
-      <div className="flex-1 flex items-center justify-center p-6 bg-background">
-        <div className="w-full max-w-md animate-fade-in">
+      {/* Right panel - Login form with threads background */}
+      <div className="flex-1 flex items-center justify-center p-6 bg-background relative overflow-hidden">
+        <svg
+          className="absolute inset-0 w-full h-full z-0"
+          preserveAspectRatio="xMidYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="threadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="rgba(82,42,255,0.15)" />
+              <stop offset="50%" stopColor="rgba(82,42,255,0.08)" />
+              <stop offset="100%" stopColor="rgba(82,42,255,0.15)" />
+            </linearGradient>
+          </defs>
+          {[...Array(6)].map((_, i) => (
+            <path
+              key={i}
+              d={`M-100,${100 + i * 150} Q${300 + i * 50},${50 - i * 20} ${1100},${200 + i * 100}`}
+              stroke="url(#threadGrad)"
+              strokeWidth="2"
+              fill="none"
+              strokeLinecap="round"
+            >
+              <animateTransform
+                attributeName="transform"
+                type="translate"
+                values={`0,0; ${i % 2 === 0 ? 40 : -30},${i % 2 === 0 ? -20 : 20}; 0,0`}
+                dur={`${6 + i * 1.5}s`}
+                repeatCount="indefinite"
+              />
+            </path>
+          ))}
+          {[...Array(6)].map((_, i) => (
+            <path
+              key={`v-${i}`}
+              d={`M${150 + i * 200},-100 Q${250 + i * 30},${400 - i * 40} ${100 + i * 180},${1200}`}
+              stroke="url(#threadGrad)"
+              strokeWidth="1.5"
+              fill="none"
+              strokeLinecap="round"
+            >
+              <animateTransform
+                attributeName="transform"
+                type="translate"
+                values={`0,0; ${i % 2 === 0 ? -25 : 35},${i % 2 === 0 ? 20 : -15}; 0,0`}
+                dur={`${5 + i * 1.8}s`}
+                repeatCount="indefinite"
+              />
+            </path>
+          ))}
+        </svg>
+
+        <div className="w-full max-w-md animate-fade-in relative z-10">
           {/* Mobile logo */}
           <div className="lg:hidden text-center mb-8">
             <img src={wsuLogo} alt="WSU" className="w-48 mx-auto mb-4 rounded-xl" />
