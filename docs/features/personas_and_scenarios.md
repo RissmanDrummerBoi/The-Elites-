@@ -22,4 +22,4 @@ Occupation: Residence administrator
 Goal: Ensure maintenance issues are handled properly and on time
 Scenario
 
-Mr. Nkosana checks the system dashboard to monitor all reported issues. She notices some complaints are taking too long and follows up with the maintenance team to speed up resolution.
+Mr. Nkosana checks the system dashboard to monitor all reported issues. He notices some complaints are taking too long and follows up with the maintenance team to speed up resolution.
